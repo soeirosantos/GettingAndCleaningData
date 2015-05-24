@@ -18,7 +18,7 @@ To use the script `run_analysis.R`, that gets and cleans the raw data and provid
 a tidy data set, it's assumed that the folder `/UCI HAR Dataset` with raw data is
 unzipped into the working directory.
 
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+**Raw data:** https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 To run the script just start a session and load it 
 ```
@@ -27,5 +27,5 @@ To run the script just start a session and load it
 
 ## Understanding the Tidy Set
 
-To understand the variables and the transformations, please check the CodeBook.md
+To understand the variables and the transformations, please check the [CodeBook.md](https://github.com/soeirosantos/GettingAndCleaningData/blob/master/CodeBook.md)
 file provided in this repository.
