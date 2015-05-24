@@ -25,7 +25,7 @@ To run the script just start a session and load it
 > source('run_analysis.R')
 ```
 
-## Understanding the Tidy Set
+## Understanding the Tidy Data Set
 
-To understand the variables and the transformations, please check the [CodeBook.md](https://github.com/soeirosantos/GettingAndCleaningData/blob/master/CodeBook.md)
-file provided in this repository.
+To understand the variables and transformations, please check the [CodeBook.md](https://github.com/soeirosantos/GettingAndCleaningData/blob/master/CodeBook.md) provided in 
+this repository.

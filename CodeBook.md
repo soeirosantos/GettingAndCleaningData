@@ -4,7 +4,7 @@
 
 >The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
 
-For each record it is provided:
+For each record in the raw data set it is provided:
 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 
@@ -30,6 +30,11 @@ The script is totally commented and each step is well described. Please, see the
 source code for more details on transformation steps.
 
 ## Variables in the Tidy Data Set
+
+Each variable is self described by its name. And the set of variables represent 
+the mean and standard deviation measures for triaxial acceleration from the 
+accelerometer (total acceleration) and the estimated body acceleration; and 
+Triaxial Angular velocity from the gyroscope.
 
 As result of the transformation, the following variables can be obtained:
 
