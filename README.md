@@ -20,7 +20,7 @@ unzipped into the working directory.
 
 **Raw data:** https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-To run the script just start a session and load it 
+To run the script just start a R session and load it:
 ```
 > source('run_analysis.R')
 ```
