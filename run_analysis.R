@@ -6,7 +6,7 @@ X_train <- read.table('UCI HAR Dataset/train/X_train.txt')
 X_final <- rbind(X_test, X_train)
 
 # Retrieve features
-features <- read.table('UCI HAR Dataset//features.txt')[,2]
+features <- read.table('UCI HAR Dataset/features.txt')[,2]
 
 # Set labels to X data from features 
 names(X_final) <- features
@@ -18,14 +18,14 @@ mean_std_features <- grepl("-mean|-std", features)
 X_final <- X_final[, mean_std_features]
 
 # Retrieve Y data
-Y_test <- read.table('UCI HAR Dataset/test//y_test.txt')
-Y_train <- read.table('UCI HAR Dataset/train//y_train.txt')
+Y_test <- read.table('UCI HAR Dataset/test/y_test.txt')
+Y_train <- read.table('UCI HAR Dataset/train/y_train.txt')
 
 # Merge Y test and train data 
 Y_final <- rbind(Y_test, Y_train)
 
 # Retrieve activity label
-activity_labels <- read.table('UCI HAR Dataset//activity_labels.txt')[,2]
+activity_labels <- read.table('UCI HAR Dataset/activity_labels.txt')[,2]
 
 # Find descriptive label from identifier to each activity
 Y_final[,1] <- activity_labels[Y_final[,1]]
@@ -37,8 +37,8 @@ names(Y_final) <- c('Activity')
 XY_final <- cbind(Y_final, X_final)
 
 # Get the subject data
-SUBJ_test <- read.table('UCI HAR Dataset//test/subject_test.txt')
-SUBJ_train <- read.table('UCI HAR Dataset//train/subject_train.txt')
+SUBJ_test <- read.table('UCI HAR Dataset/test/subject_test.txt')
+SUBJ_train <- read.table('UCI HAR Dataset/train/subject_train.txt')
 
 # Merge subject data
 SUBJ_final <- rbind(SUBJ_test, SUBJ_train)
